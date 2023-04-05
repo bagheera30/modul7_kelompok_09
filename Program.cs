@@ -9,7 +9,13 @@ class main
 {
     public static void Main()
     {
-        DataMahasiswa1302200003 mhsA1 = new DataMahasiswa1302200003();
-        mhsA1.ReadJSON();
+        DataMahasiswa1302200003 mhs1 = new DataMahasiswa1302200003();
+        mhs1.ReadJSON();
+        Console.WriteLine();
+
+        TeamMember1302200003 mhs2 = new TeamMember1302200003();
+        mhs2.ReadJSON();
+        Console.WriteLine();
     }
+
 }

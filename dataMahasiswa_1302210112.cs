@@ -36,7 +36,9 @@ namespace modul7_kelompok_09
             string js = File.ReadAllText("jurnal7_1_1302210112.json");
             dataMahasiswa_1302210112 data=JsonSerializer.Deserialize<dataMahasiswa_1302210112>(js);
 
-            Console.WriteLine("first name : " + data.firstName + "\nlast name : "+data.lastName+"\ngender : "+data.gender+"\nage : "+data.age+ "\nstreetAddress : "+data.address.streetAddress+"\ncity : "+data.address.city+"\nstate : "+data.address.state);
+            Console.WriteLine("first name : " + data.firstName + "\nlast name : "+data.lastName+"\ngender : "+data.gender+
+                "\nage : "+data.age+ "\nstreetAddress : "+data.address.streetAddress+"\ncity : "+data.address.city+"\nstate : "+
+                data.address.state);
             Console.WriteLine("Daftar Mata Kuliah yang diambil:");
             int i = 1;
             foreach (Course course in data.courses)

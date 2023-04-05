@@ -1,3 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using modul7_kelompok_09;
+
+dataMahasiswa_1302210105 data=new dataMahasiswa_1302210105();
+data.readJson();
 //
